@@ -24,6 +24,3 @@ def loadData():
 #Sending data from database to frontend .
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-
