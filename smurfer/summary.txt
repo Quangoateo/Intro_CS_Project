@@ -1,0 +1,32 @@
+Smurfers(Software-Website  + AI detection->Attendance management system):
+Overview:
++Front end  :
+    Static:
+        Css :all.in.Css
+        Bootstrap.Css
+        style.Css
+    Database :
+        data.json : save students info such as ,Name,ID,Program,Intak,Time .
+    Fonts &  Website fonts:
+        some fonts for words on the Website.
+    Images:
+        the place to store images for web interface.
+    Js
+        script.js :saving properties (id,Name,Intake,date ) on the table
+    template:
+        (Storing websites pages)
+        index.html :Main pages
+        technologies.html :Introduce technologies ,ideas for our websites
+        Timeline.html :HoW we organise
++Backend :(Flask)
+    app.py: loading index.html,technologies.html,Timeline.html ,open camera from your PC ,load data from  database/data.json ,import testing_camera.py for website
++Ai detection: (Opencv,face-recognition,datetime)
+    testing_camera.py: Checking info of students ,mark Attendance in CSV file then save to json file .
+    Attendance.csv file saves the info of student scaned by
+How does it work
+    Create a website -> The camera detects students from the given images and saves in the csv file -> 
+The received info  is transfered from csv to json -> use flask for loading data from json file 
+to upload to the dashboard on the website ...Done!
+
+
+

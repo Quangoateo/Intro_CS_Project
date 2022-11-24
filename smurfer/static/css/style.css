@@ -1,0 +1,183 @@
+@font-face {
+    font-family: work-sans;
+    src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: display;
+    src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+ul, ol
+{
+    list-style: none;
+}
+body, button
+{
+    font-family: work-sans;
+}
+.nav-link
+{
+    margin: 0 30px;
+}
+.bg-nav
+{
+    background-color: #FFAE00;
+}
+.bg-nav .nav-link, .more-item
+{
+    text-transform: capitalize;
+    color:#fff;
+    font-size: 16px;
+}
+.bg-nav .nav-link:hover
+{
+    color: #222;
+}
+.section-title
+{
+    text-align: center;
+    margin: 50px auto 25px auto;
+}
+.section-title span
+{
+    font-family: display;
+    font-size: 13px;
+    color:#222
+}
+.section-title h1
+{
+    font-size: 32px;
+    font-weight: 500;
+    color:#222;
+    text-transform: capitalize;
+}
+.text-item h1
+{
+    font-weight: normal;
+    font-family: display;
+    font-size: 56px;
+    color:#CD9933;
+    text-transform: capitalize;
+    padding: 0 16px;
+}
+.text-item h2
+{
+    font-weight: normal;
+    font-size: 36px;
+    font-family: work-sans;
+    color: #000;
+    text-transform: uppercase;
+    padding: 5px 16px;
+}
+.text-item h3
+{
+    font-weight: normal;
+    font-family: work-sans;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 16px;
+}
+.text-item p
+{
+    font-size: 16px;
+    color: #222;
+    line-height: 30px;
+    padding: 0 16px;
+}
+.blog-item
+{
+    background-color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.blog-item p
+{
+    font-size: 16px;
+    color: #222;
+    margin: 5px 0 0 0;
+    padding: 0 10px;
+}
+.blog-item h3
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.footer-info
+{
+    font-size: 16px;
+    font-family: work-sans;
+    line-height: 28px;
+    color:#222;
+    text-align: right;
+}
+.company
+{
+    text-align: center;
+}
+.company h1
+{
+    font-family: display;
+}
+.social-icon li
+{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    color:#222;
+    text-align: center;
+}
+.social-icon
+{
+    padding-top: 20px;
+}
+.content
+{
+    text-align: left;
+}
+.content h2
+{
+    font-size: 12px;
+    font-family: work-sans;
+    line-height: 24px;
+    color: #CD9933;
+}
+.content h3
+{
+    font-size: 12px;
+    font-family: work-sans;
+    line-height: 24px;
+    color: #222;
+}
+.content p
+{
+    font-size: 16px;
+    font-family: work-sans;
+    line-height: 24px;
+    color: #222;
+}
+.footer-bottom
+{
+    background-color: #CD9933;
+}
+.footer-bottom p
+{
+    line-height: 104px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+.charg-icon
+{   
+    display: flex;
+    margin: 34px 0;
+    justify-content: flex-end;
+
+}
+.charg-icon img
+{
+    padding-left: 5px;
+    width: 60px;
+    height: 35px;
+}
